@@ -1,0 +1,7 @@
+{% extends 'base.jinja' %}
+
+{% block content %}
+    <h1>Text Based Adventure Game</h1>
+
+    <a href="{% url 'story_room' room_id=1 %}" class="btn btn-primary">Play</a>
+{% endblock content %}
