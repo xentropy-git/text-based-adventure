@@ -32,6 +32,11 @@ ALLOWED_HOSTS = [
     # Add other domains if necessary
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://text-based-adventure.onrender.com',
+    # Add other trusted origins if needed
+]
+
 # Application definition
 
 INSTALLED_APPS = [
