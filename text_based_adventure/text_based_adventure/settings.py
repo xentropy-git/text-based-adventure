@@ -126,6 +126,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Temporarily use console email backend - we need a real SMTP server for production
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
