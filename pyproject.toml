@@ -8,7 +8,8 @@ authors = ["xentropy <claponsie@gmail.com>"]
 python = "^3.10"
 pendulum = "^3.0.0"
 Django = "^5.0.7"
-django-sso = "^3.0.2"
+psycopg2 = "^2.9.9"
+django-allauth = {extras = ["socialaccount"], version = "^64.1.0"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
